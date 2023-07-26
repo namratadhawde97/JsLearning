@@ -27,6 +27,7 @@ function addition(arg1, arg2, arg3){
 }
 var res = addition(10, 23, 456);
 console.log('Result is ', res);
+
 var resultValue = addition(-56, 239, 677);
 console.log('Result is ', resultValue);
 
