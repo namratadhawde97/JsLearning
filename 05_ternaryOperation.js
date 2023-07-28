@@ -8,3 +8,5 @@ var num = 50;
 var result = num%2==0 ? "EVEN" : "ODD";
 console.log(result);
 
+
+
