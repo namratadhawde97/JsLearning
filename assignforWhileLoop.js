@@ -1,9 +1,16 @@
 console.log('------------------------------Assignment No:01 (For Loop) --------------');
 
 console.log('---------Step1--------------');
-for (let index = 5; index <=15; index++) {
-    console.log(index);   
+for (let index = 5; index <=15; index++) {   
+    console.log(index); 
 }
+
+var i = 5;
+while (i<=15) {
+    console.log(i);
+    i++;
+}
+       
 
 console.log('---------Step2--------------');
 for (let index = 50; index >=40 ; index--) {
