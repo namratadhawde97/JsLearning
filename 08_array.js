@@ -2,9 +2,13 @@ var array = [10, 20, 30, 50, 10, 80, 20];
 console.log(array);
 console.log(`Type of array is: ${typeof array}`);
 
+console.log('-----------2------------');
+
 console.log(`Total number of elements in array is: ${array.length}`);
 let element2 = array[2];
 console.log(`Element stored at index 2 is: ${element2}`);
+
+console.log('-----------3------------');
 
 let element1 = array[0];
 console.log(`Element stored at index 1 is: ${element1}`);
@@ -12,12 +16,17 @@ let arrayLength = array.length;
 let elementLast = array[arrayLength-1];
 console.log(`Last element is : ${elementLast}`);
 
-console.log(`---------------------------`);
+console.log(`---------------4------------`);
+
 array[1] = 100;
 console.log(array);
 
+console.log('-----------5------------');
+
 let isAvailable = array.includes(80);
 console.log(`Is 80 available : ${isAvailable}`);
+
+console.log('-----------6------------');
 
 let indexOfElement = array.indexOf(50);
 console.log(`Index of 50 is : ${indexOfElement}`);
@@ -77,6 +86,24 @@ var array = [10, 20, 30, 50, 10, 80, 20];
 array.splice(3, 0, 100, 200, 300, 600)
 console.log(array);
 
+console.log('---------------------------------------');
+
+
 var array = [10, 20, 30, 50, 10, 80, 20];
 array.splice(4, 2, 33, 55, 66, 77 );
 console.log(array);
+
+console.log(`------ for of loop ----------`);
+for (const element of array3) {
+    console.log(element);
+}
+
+console.log(`------ array resize ----------`);
+let array4 = [4, 5, 6, 7, 8, 9];
+array4.length = 3;
+console.log(array4);
+
+console.log(`------ spread operator ... ----------`);
+let array5 = [4, 5, 6, 7, 8, 9];
+console.log(array5);
+console.log(...array5);
