@@ -1,0 +1,13 @@
+
+let addressStr = `{
+    "flatNo": 307,
+    "building": "B",
+    "street": "Datta Mandir Road",
+    "location": "Wakad",
+    "pin": 411057
+}`;
+console.log(`type of addressStr  ==> ${typeof addressStr}`);
+
+const address = JSON.parse(addressStr);
+console.log(` address type of ==>  ${typeof address}`);
+console.log(address);
